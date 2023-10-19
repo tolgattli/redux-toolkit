@@ -24,3 +24,53 @@
     bottom: 10px;
     right: 10px;
 }
+
+
+.card {
+    text-align: center;
+}
+
+.deleteButton {
+    padding: 10px;
+    border:none;
+    border-radius: 30px;
+    color: white;
+    background-color: blue;
+}
+
+.card-item {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 150px;
+
+}
+
+.card-info {
+    text-align: right;
+}
+
+
+.up-down-button{
+    border: none;
+    background-color: white;
+    font-size: 20px;
+}
+
+.p-tag {
+    margin-right: 9px;
+}
+
+
+.del-red {
+    padding: 8px;
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+footer {    
+    margin: 30px;
+
+}

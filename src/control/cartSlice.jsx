@@ -1,8 +1,9 @@
 import { createSlice } from "@reduxjs/toolkit";
+import courseItems from "../assets/courseItems";
 
 const initialState = {
-  cardItems: [],
-  quantity: 0,
+  cardItems: courseItems,
+  quantity: 1,
   total: 0,
 };
 
@@ -10,7 +11,5 @@ const cardSlice = createSlice({
   name: "card",
   initialState,
 });
-
-console.log(cardSlice);
 
 export default cardSlice.reducer;
